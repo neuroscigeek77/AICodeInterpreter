@@ -35,7 +35,7 @@ hide_menu_style = """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # Initialize OpenAI API key using environment variable
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('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')
 
 # Display title on the Streamlit application
 st.title('**** COMMODORE 64-AI ****')
